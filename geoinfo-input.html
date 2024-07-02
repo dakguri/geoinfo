@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    
+    <!-- 스타일 css -->
+    <link rel="stylesheet" href="geoinfo.css">
+    <!-- css 초기화 -->
+    <link rel="stylesheet" href="reset.css">
+    <title>건설현장등록</title>
+</head>
+<body>
+    <header class="header">header </header>
+        <div class="nav">nav</div>
+   
+    <div class="page-content-wrapper">
+        <!-- 서브메뉴 시작 -->
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar inside-treeview">
+                <div class="treeview-project-name">
+                    <p class="project-title">건설현장 관리</p>
+                    <p class="project-value"><a href="geoinfo.html">건설현장 조회</a></p>     
+                    <p class="project-value value-is-active">건설현장 입력</p>  
+                </div>
+            </div>
+        </div>
+        <!-- 서브메뉴 끝 -->
+
+        <!-- 콘텐츠 시작 -->
+        <div class="page-content">
+            <div class="page-content-inner">
+                <!-- 카테고리 시작 -->
+                <div class="category-wrapper">
+                    <ul class="page-category">
+                        <li class="category-item"></li>
+                        <li class="category-item">건설현장 입력</li>
+                    </ul>
+                    <a href="#" class="btn btn-help">도움말</a>
+                </div>
+                <!-- 카테고리 끝 -->
+                <h1 class="page-title-1depth">건설현장 입력</h1>
+                <!-- 내용 시작 -->
+                <div class="content-wrapper">
+                    <div class="content1">
+                        <div class="page-top-check">
+                            <p class="check-title"><span>기관명</span> 기관명이 없을 시, 연락 바랍니다. 연락처: 070-1234-5678</p>
+                            <ul class="check-category">
+                                <li>국토교통부</li>
+                                <li>소속기관</li>
+                                <li>지방항공청</li>
+                                <li>서울지방항공청</li>
+                            </ul>
+                        </div>
+                        <button class="btn-green" type="button">엑셀자료입력</button>
+                    </div>
+                    <div class="table-scrollable">
+                        <table class="table-bordered">
+                            <colgroup>
+                                <col style="width: 15%;">
+                                <col style="width: 35%;">
+                                <col style="width: 15%;">
+                                <col style="width: 35%;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>사업명</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box" placeholder="사업명">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>사업기간</th>
+                                    <td>
+                                        <input type="date" class="date">
+                                        <span>~</span>
+                                        <input type="date" class="date date-2">
+                                    </td>
+                                    <th>사업단계</th>
+                                    <td>
+                                        <select class="selectbox">
+                                            <option>사업단계선택</option>
+                                            <option value="">설계 단계</option>
+                                            <option value="">시공 단계</option>
+                                            <option value="">준공 단계</option>
+                                            <option value="">유지관리 단계</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>발주기관</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box information1" placeholder="담당부서">
+                                        <input type="text" class="input-box information2" placeholder="담당자">
+                                        <input type="text" class="input-box information3" placeholder="담당자 연락처">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>건설사</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box information1" placeholder="담당부서">
+                                        <input type="text" class="input-box information2" placeholder="담당자">
+                                        <input type="text" class="input-box information3" placeholder="담당자 연락처">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-scrollable">
+                        <table class="table-bordered">
+                            <colgroup>
+                                <col style="width: 15%;">
+                                <col style="width: 35%;">
+                                <col style="width: 15%;">
+                                <col style="width: 35%;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>사업명</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box" placeholder="사업명">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>사업기간</th>
+                                    <td>
+                                        <input type="date" class="date">
+                                        <span>~</span>
+                                        <input type="date" class="date date-2">
+                                    </td>
+                                    <th>사업단계</th>
+                                    <td>
+                                        <select class="selectbox">
+                                            <option>사업단계선택</option>
+                                            <option value="">설계 단계</option>
+                                            <option value="">시공 단계</option>
+                                            <option value="">준공 단계</option>
+                                            <option value="">유지관리 단계</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>발주기관</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box information1" placeholder="담당부서">
+                                        <input type="text" class="input-box information2" placeholder="담당자">
+                                        <input type="text" class="input-box information3" placeholder="담당자 연락처">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>건설사</th>
+                                    <td colspan="3">
+                                        <input type="text" class="input-box information1" placeholder="담당부서">
+                                        <input type="text" class="input-box information2" placeholder="담당자">
+                                        <input type="text" class="input-box information3" placeholder="담당자 연락처">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="">
+                        <button class="btn btn-plus" type="button"></button>
+                        <button class="btn btn-minus" type="button"></button>
+                        <button class="btn-green btn-save" type="button">
+                            <span>저장</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- 내용 끝 -->
+            </div>
+        </div>
+        <!-- 콘텐츠 끝 -->
+    </div>
+    <footer class="page-footer">footer</footer>
+</body>
+</html>
